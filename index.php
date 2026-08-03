@@ -12,7 +12,7 @@ render_header();
             <span class="eyebrow eyebrow-light">Segurança jurídica • Atendimento próximo • Transparência</span>
             <h1>Cartório<br><span>Graça Rocha</span></h1>
             <p class="premium-subtitle">Serventia Extrajudicial do Ofício Único de Anísio de Abreu-PI</p>
-            <p class="premium-lead">Informação clara, atendimento acessível e soluções extrajudiciais reunidas em um portal institucional moderno.</p>
+            <p class="premium-lead">Informação clara, atendimento acessível e soluções extrajudiciais reunidas em um unico lugar</p>
 
             <div class="actions premium-actions">
                 <a class="button button-gold" href="solicitacao.php">Criar solicitação</a>
@@ -100,7 +100,7 @@ render_header();
         <div class="premium-service-grid">
             <article class="premium-service-card">
                 <span class="service-index">01</span>
-                <div class="service-symbol" aria-hidden="true">N</div>
+                <div class="service-symbol" aria-hidden="true">RCPN</div>
                 <h3>Registro Civil</h3>
                 <p>Nascimentos, casamentos, óbitos, certidões, averbações, retificações e atos relativos ao estado civil.</p>
                 <a href="#documentos">Consultar orientações</a>
@@ -108,7 +108,7 @@ render_header();
 
             <article class="premium-service-card">
                 <span class="service-index">02</span>
-                <div class="service-symbol" aria-hidden="true">F</div>
+                <div class="service-symbol" aria-hidden="true">Notas</div>
                 <h3>Tabelionato de Notas</h3>
                 <p>Escrituras, procurações, atas notariais, autenticações, reconhecimentos de firma e demais atos notariais.</p>
                 <a href="#documentos">Consultar orientações</a>
@@ -116,7 +116,7 @@ render_header();
 
             <article class="premium-service-card">
                 <span class="service-index">03</span>
-                <div class="service-symbol" aria-hidden="true">P</div>
+                <div class="service-symbol" aria-hidden="true">Protestos</div>
                 <h3>Protesto de Títulos</h3>
                 <p>Apontamento, intimação, pagamento, desistência, cancelamento, certidões e informações de protesto.</p>
                 <a href="#documentos">Consultar orientações</a>
@@ -124,7 +124,7 @@ render_header();
 
             <article class="premium-service-card">
                 <span class="service-index">04</span>
-                <div class="service-symbol" aria-hidden="true">I</div>
+                <div class="service-symbol" aria-hidden="true">RI</div>
                 <h3>Registro de Imóveis</h3>
                 <p>Registros, averbações, certidões, retificações, regularização fundiária e procedimentos imobiliários.</p>
                 <a href="#documentos">Consultar orientações</a>
@@ -132,7 +132,7 @@ render_header();
 
             <article class="premium-service-card">
                 <span class="service-index">05</span>
-                <div class="service-symbol" aria-hidden="true">D</div>
+                <div class="service-symbol" aria-hidden="true">RTD</div>
                 <h3>Títulos e Documentos</h3>
                 <p>Publicidade, conservação, eficácia perante terceiros, notificações e registro de documentos em geral.</p>
                 <a href="#documentos">Consultar orientações</a>
@@ -140,7 +140,7 @@ render_header();
 
             <article class="premium-service-card">
                 <span class="service-index">06</span>
-                <div class="service-symbol" aria-hidden="true">J</div>
+                <div class="service-symbol" aria-hidden="true">RCPJ</div>
                 <h3>Pessoas Jurídicas</h3>
                 <p>Registro e averbação de atos constitutivos, atas, alterações, livros e certidões de pessoas jurídicas.</p>
                 <a href="#documentos">Consultar orientações</a>
