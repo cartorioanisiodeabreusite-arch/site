@@ -21,7 +21,7 @@ return [
     'whatsapp' => env_value('SITE_WHATSAPP', '5589981142030'),
     'email' => env_value('SITE_EMAIL', 'cartoriounicoanisio@outlook.com'),
     'hours' => env_value('SITE_HOURS', '08:00 as 14:00'),
-    'plantao_rcpn' => env_value('SITE_PLANTAO_RCPN', 'Plantão do Registro Civil:'),
+    'plantao_rcpn' => env_value('SITE_PLANTAO_RCPN', 'Ativo'),
     'corregedoria_name' => env_value('SITE_CORREGEDORIA_NAME', 'Corregedoria do Foro Extrajudicial do Estado do Piauí'),
     'corregedoria_url' => env_value('SITE_CORREGEDORIA_URL', 'https://www.tjpi.jus.br/'),
     'privacy_officer_name' => env_value('SITE_PRIVACY_OFFICER_NAME', 'PREENCHER NOME/EMPRESA DO ENCARREGADO'),
