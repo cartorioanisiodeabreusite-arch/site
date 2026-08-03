@@ -9,21 +9,14 @@ render_header();
 
     <div class="container future-hero-grid">
         <div class="future-hero-copy">
-            <span class="eyebrow eyebrow-light">Portal institucional • Atendimento eletrônico • Segurança jurídica</span>
+            <span class="eyebrow eyebrow-light">Serviços notariais e de registro</span>
             <h1>Cartório <span>Graça Rocha</span></h1>
             <p class="future-subtitle">Serventia Extrajudicial do Ofício Único de Anísio de Abreu-PI</p>
-            <p class="future-lead">Um portal moderno, elegante e tecnológico para reunir informações da serventia, canais de atendimento e serviços extrajudiciais com mais identidade visual e melhor experiência para o usuário.</p>
+            <p class="future-lead">Consulte informações, orientações e canais de atendimento da serventia. Envie dúvidas, reclamações ou elogios e acompanhe sua solicitação pelo protocolo.</p>
 
             <div class="actions premium-actions">
                 <a class="button button-gold" href="solicitacao.php">Criar solicitação</a>
                 <a class="button button-glass" href="acompanhar.php">Acompanhar protocolo</a>
-            </div>
-
-            <div class="future-pills" aria-label="Destaques do portal">
-                <span>Logo institucional em destaque</span>
-                <span>Mascote 3D flutuante</span>
-                <span>Canal com protocolo</span>
-                <span>Experiência responsiva</span>
             </div>
 
             <?php if (str_contains($config['address'], 'PREENCHER')): ?>
@@ -31,16 +24,11 @@ render_header();
             <?php endif; ?>
         </div>
 
-        <aside class="future-showcase" aria-label="Identidade visual do portal">
+        <aside class="future-showcase" aria-label="Identidade institucional e atendimento">
             <div class="future-brand-card">
-                <div class="future-brand-top">
-                    <span class="mini-badge">Identidade visual</span>
-                    <strong>Logo do cartório</strong>
-                </div>
                 <div class="future-logo-display">
                     <img src="assets/logo-cartorio-graca-rocha.png" alt="Logo do Cartório Graça Rocha">
                 </div>
-                <p class="future-brand-text">A logo institucional agora aparece em destaque no site, reforçando a identidade visual do Cartório Graça Rocha.</p>
             </div>
 
             <div class="future-info-ribbon">
@@ -49,12 +37,12 @@ render_header();
                     <strong><?= e($config['hours']) ?></strong>
                 </div>
                 <div>
-                    <span>Cidade</span>
+                    <span>Localização</span>
                     <strong><?= e($config['city']) ?></strong>
                 </div>
                 <div>
-                    <span>Contato</span>
-                    <a href="https://wa.me/<?= e($config['whatsapp']) ?>" target="_blank" rel="noopener">WhatsApp</a>
+                    <span>WhatsApp</span>
+                    <a href="https://wa.me/<?= e($config['whatsapp']) ?>" target="_blank" rel="noopener">Abrir conversa</a>
                 </div>
             </div>
         </aside>
@@ -74,20 +62,20 @@ render_header();
     <div class="container pathways-grid">
         <a class="pathway-card pathway-primary" href="solicitacao.php">
             <span class="pathway-kicker">Atendimento eletrônico</span>
-            <strong>Enviar uma manifestação</strong>
-            <p>Dúvidas, reclamações, elogios ou solicitações relacionadas à proteção de dados.</p>
+            <strong>Enviar manifestação</strong>
+            <p>Registre dúvida, reclamação, elogio ou solicitação relacionada à proteção de dados.</p>
             <span class="pathway-link">Criar protocolo →</span>
         </a>
         <a class="pathway-card" href="acompanhar.php">
-            <span class="pathway-kicker">Consulta segura</span>
-            <strong>Acompanhar atendimento</strong>
-            <p>Consulte a resposta e o andamento usando protocolo e chave de acesso.</p>
+            <span class="pathway-kicker">Consulta</span>
+            <strong>Acompanhar solicitação</strong>
+            <p>Consulte o andamento e a resposta usando protocolo e chave de acesso.</p>
             <span class="pathway-link">Consultar agora →</span>
         </a>
         <a class="pathway-card" href="#documentos">
-            <span class="pathway-kicker">Orientação inicial</span>
-            <strong>Ver documentos básicos</strong>
-            <p>Confira informações iniciais para os serviços mais procurados da serventia.</p>
+            <span class="pathway-kicker">Orientações</span>
+            <strong>Documentos básicos</strong>
+            <p>Veja informações iniciais para os serviços mais procurados.</p>
             <span class="pathway-link">Ver orientações →</span>
         </a>
     </div>
@@ -97,10 +85,10 @@ render_header();
     <div class="container">
         <div class="premium-section-heading future-heading">
             <div>
-                <span class="eyebrow">Especialidades</span>
-                <h2>Serviços com visual mais moderno e proporcional</h2>
+                <span class="eyebrow">Serviços</span>
+                <h2>Atos praticados pela serventia</h2>
             </div>
-            <p>Os cartões de serviços foram redesenhados com aparência mais tecnológica, mantendo leitura clara, boa proporção e organização institucional.</p>
+            <p>As exigências e os documentos podem variar conforme o ato solicitado e a análise jurídica do caso concreto.</p>
         </div>
 
         <div class="future-services-grid">
@@ -108,23 +96,26 @@ render_header();
                 <span class="service-order">01</span>
                 <div class="future-service-badge">RCPN</div>
                 <h3>Registro Civil</h3>
-                <p>Nascimentos, casamentos, óbitos, certidões, averbações, retificações e atos relativos ao estado civil.</p>
+                <p>Nascimentos, casamentos, óbitos, certidões, averbações, retificações e demais atos do estado civil.</p>
                 <a href="#documentos">Consultar orientações</a>
             </article>
+
             <article class="future-service-card">
                 <span class="service-order">02</span>
                 <div class="future-service-badge">Notas</div>
                 <h3>Tabelionato de Notas</h3>
-                <p>Escrituras, procurações, atas notariais, autenticações, reconhecimentos de firma e demais atos notariais.</p>
+                <p>Escrituras, procurações, atas notariais, autenticações, reconhecimento de firma e demais atos notariais.</p>
                 <a href="#documentos">Consultar orientações</a>
             </article>
+
             <article class="future-service-card">
                 <span class="service-order">03</span>
-                <div class="future-service-badge">Protestos</div>
+                <div class="future-service-badge">Protesto</div>
                 <h3>Protesto de Títulos</h3>
-                <p>Apontamento, intimação, pagamento, desistência, cancelamento, certidões e informações de protesto.</p>
+                <p>Apontamento, intimação, pagamento, desistência, cancelamento, certidões e informações.</p>
                 <a href="#documentos">Consultar orientações</a>
             </article>
+
             <article class="future-service-card">
                 <span class="service-order">04</span>
                 <div class="future-service-badge">RI</div>
@@ -132,13 +123,15 @@ render_header();
                 <p>Registros, averbações, certidões, retificações, regularização fundiária e procedimentos imobiliários.</p>
                 <a href="#documentos">Consultar orientações</a>
             </article>
+
             <article class="future-service-card">
                 <span class="service-order">05</span>
                 <div class="future-service-badge">RTD</div>
                 <h3>Títulos e Documentos</h3>
-                <p>Publicidade, conservação, eficácia perante terceiros, notificações e registro de documentos em geral.</p>
+                <p>Publicidade, conservação, eficácia perante terceiros, notificações e registro de documentos.</p>
                 <a href="#documentos">Consultar orientações</a>
             </article>
+
             <article class="future-service-card">
                 <span class="service-order">06</span>
                 <div class="future-service-badge">RCPJ</div>
@@ -150,54 +143,39 @@ render_header();
     </div>
 </section>
 
-<section class="future-mission-band">
-    <div class="container future-mission-grid">
-        <div>
-            <span class="eyebrow eyebrow-light">Conceito do novo layout</span>
-            <h2>Design institucional com toque tecnológico</h2>
-            <p>O site combina elementos de interface moderna, camadas translúcidas, brilhos sutis, destaque para a logo e um mascote 3D flutuante inspirado no monumento da cidade.</p>
-        </div>
-        <div class="future-mini-panels">
-            <article><strong>Logo em evidência</strong><p>A identidade do cartório fica mais presente e memorável no layout.</p></article>
-            <article><strong>Mascote 3D flutuante</strong><p>O tamanduá aparece ao lado da página como um personagem amigável.</p></article>
-            <article><strong>Mais moderno</strong><p>Blocos redesenhados com proporções equilibradas e navegação mais sofisticada.</p></article>
-        </div>
-    </div>
-</section>
-
 <section id="documentos" class="section section-muted premium-guidance">
     <div class="container premium-guidance-grid">
         <div class="guidance-intro">
             <span class="eyebrow">Orientações iniciais</span>
-            <h2>Prepare-se antes de solicitar o serviço</h2>
-            <p>As listas abaixo são indicativas. Dependendo do ato e do caso concreto, poderão ser solicitados documentos adicionais para garantir a segurança jurídica.</p>
+            <h2>Documentos básicos</h2>
+            <p>As informações abaixo são indicativas. Conforme o caso, poderão ser solicitados documentos complementares.</p>
             <a class="text-link" href="solicitacao.php">Ainda tem dúvida? Fale com a serventia →</a>
         </div>
 
         <div class="accordion premium-accordion">
             <details open>
                 <summary>Certidões</summary>
-                <p>Informe o tipo de registro, nome completo, filiação, data aproximada do ato e demais dados que facilitem a localização. O fornecimento observará as regras de publicidade e proteção de dados.</p>
+                <p>Informe o tipo de registro, nome completo, filiação, data aproximada do ato e outros dados que facilitem a localização.</p>
             </details>
             <details>
                 <summary>Reconhecimento de firma e autenticação</summary>
-                <p>Apresente documento de identificação original e o documento objeto do serviço. Para reconhecimento por autenticidade, a assinatura deverá ser lançada perante o atendente.</p>
+                <p>Apresente documento de identificação original e o documento objeto do serviço. Para reconhecimento por autenticidade, a assinatura deverá ser feita perante o atendente.</p>
             </details>
             <details>
                 <summary>Procuração pública</summary>
-                <p>Documento de identificação, CPF, estado civil, profissão, endereço, qualificação do procurador e descrição dos poderes. Poderão ser exigidos documentos relacionados ao objeto da procuração.</p>
+                <p>Apresente documentos pessoais, qualificação do procurador e descrição clara dos poderes. Poderão ser exigidos documentos relacionados ao objeto.</p>
             </details>
             <details>
                 <summary>Registro de imóvel</summary>
-                <p>Título original ou eletrônico válido, documentos das partes, comprovantes tributários e demais documentos pertinentes ao ato. O título será submetido à qualificação registral.</p>
+                <p>Apresente título original ou eletrônico válido, documentos das partes e os demais documentos relacionados ao ato.</p>
             </details>
             <details>
                 <summary>Protesto e cancelamento</summary>
-                <p>Para pagamento, utilize os canais indicados na intimação. Para cancelamento, apresente o documento hábil ou autorização do credor, conforme a legislação aplicável.</p>
+                <p>Para pagamento, utilize os canais indicados na intimação. Para cancelamento, apresente o documento hábil ou a autorização do credor.</p>
             </details>
             <details>
-                <summary>Registro de pessoa jurídica e títulos/documentos</summary>
-                <p>Requerimento, instrumento a registrar, documentos de representação e assinaturas exigidas. A documentação varia conforme a natureza do título e a finalidade do registro.</p>
+                <summary>Pessoas jurídicas e títulos e documentos</summary>
+                <p>Apresente o instrumento a registrar, requerimento, documentos de representação e demais documentos exigidos conforme a finalidade do registro.</p>
             </details>
         </div>
     </div>
@@ -207,13 +185,11 @@ render_header();
     <div class="container premium-institutional-grid">
         <div class="institutional-brand-panel future-brand-panel">
             <img src="assets/logo-cartorio-graca-rocha.png" alt="Logo do Cartório Graça Rocha">
-            <span>Cartório Graça Rocha</span>
-            <p>Serventia Extrajudicial do Ofício Único de Anísio de Abreu-PI</p>
         </div>
 
         <div class="institutional-data">
-            <span class="eyebrow">A serventia</span>
-            <h2>Informações institucionais</h2>
+            <span class="eyebrow">Informações</span>
+            <h2>Dados da serventia</h2>
             <dl class="premium-data-list">
                 <div><dt>Responsável</dt><dd><?= e($config['responsible']) ?> — <?= e($config['responsible_role']) ?></dd></div>
                 <div><dt>CNS</dt><dd><?= e($config['cns']) ?></dd></div>
@@ -230,7 +206,7 @@ render_header();
         <div class="premium-section-heading premium-section-heading-light">
             <div>
                 <span class="eyebrow eyebrow-light">Transparência</span>
-                <h2>Normas, links úteis e emolumentos</h2>
+                <h2>Normas e emolumentos</h2>
             </div>
             <p>O envio de dúvida, reclamação ou elogio não constitui ato notarial ou registral e não gera cobrança de emolumentos.</p>
         </div>
@@ -240,32 +216,27 @@ render_header();
                 <span>CNJ</span>
                 <h3>Código Nacional de Normas</h3>
                 <p>Provimento CNJ nº 149/2023, em texto compilado.</p>
-                <small>Adicionar link oficial no config.</small>
             </article>
             <article>
                 <span>TJPI</span>
                 <h3>Código de Normas do Piauí</h3>
                 <p>Provimento CGJ/PI nº 62/2024 e alterações.</p>
-                <small>Adicionar link oficial no config.</small>
             </article>
             <article>
                 <span>Tabela</span>
                 <h3>Emolumentos</h3>
-                <p>Consulta aos atos, códigos e valores vigentes no Estado do Piauí.</p>
-                <small>Adicionar PDF ou link oficial.</small>
+                <p>Atos, códigos e valores vigentes no Estado do Piauí.</p>
             </article>
         </div>
-
-        <p class="transparency-note">Os valores cobrados em atos notariais e registrais devem observar a tabela estadual vigente e as normas aplicáveis.</p>
     </div>
 </section>
 
 <section class="premium-final-cta future-final-cta">
     <div class="container premium-final-cta-inner">
         <div>
-            <span class="eyebrow">Canal de atendimento</span>
-            <h2>Pronto para usar o portal?</h2>
-            <p>Abra sua manifestação, registre sua dúvida ou acompanhe o protocolo com praticidade.</p>
+            <span class="eyebrow">Atendimento</span>
+            <h2>Precisa falar com a serventia?</h2>
+            <p>Registre sua solicitação ou acompanhe o protocolo eletrônico.</p>
         </div>
         <div class="actions">
             <a class="button button-gold" href="solicitacao.php">Criar solicitação</a>
